@@ -1,0 +1,126 @@
+.container-fluid{
+    background-color: lightgray;
+}
+
+h1{
+    font-family:'Amatic SC', cursive;
+    font-size: 4.5rem;
+    font-weight: 700;
+}
+
+.aref:hover{
+    color: #d81111;
+}
+
+h2{
+    font-family:'Amatic SC', cursive;
+    font-size: 50px;
+    font-weight: 500;  
+}
+
+h3{
+    font-weight: 900;
+}
+
+p{
+    font-weight: 500;
+}
+
+#button{
+    border: none;
+    width: 125px;
+    background-color:rgb(255, 255, 255, 0.3) ;
+    color: white;
+    font-weight: 600;
+}
+
+#button:hover{
+    color: red;
+    background-color: white;
+}
+
+#icon{
+    color: #d81111;
+    font-size: 32px;
+    margin-bottom: 30px;
+    display: flex;
+    border-radius: 50px;
+    width: 65px;
+    height: 65px;
+    justify-content: center;
+    align-items: center;
+    background: rgba(206, 18, 18, 0.1)
+
+}
+
+section{
+    background-color: lightgray;
+    overflow: hidden;
+    padding: 80px;
+    scroll-margin-top: 90px;
+    box-sizing: border-box;
+}
+
+#stats-counter{
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/stats-bg.jpg") center center;
+    background-size: cover;
+    padding: 100px ; 
+}
+
+section{
+    scroll-margin-top: 90px;
+    overflow: hidden;
+}
+
+span{
+    font-size: 50px;
+    color: white;
+    font-weight: 700;
+    display: block;
+}
+
+#para{
+    color: white;
+    font-weight: 600;
+    font-size: 17px;
+    opacity: 0.7;
+}
+
+.nav-link{
+    margin: 0 10px;
+    padding: 10px 5px;
+    color: rgb(61, 60, 60);
+    cursor: pointer;
+    height: 100%;
+    display: block;
+}
+
+.nav-link:hover{
+    color: red;
+}
+
+.nav-link:active{
+    color: red;
+}
+
+h3{
+    font-size: 38px;
+}
+
+#row{
+   display: flex;
+   flex-wrap: wrap;
+   width: 1300px;
+}
+
+.bg-custom{
+    color: cornflowerblue;
+}
+
+/* h4{
+    font-size: 22px;
+    font-weight: 500;
+    margin-bottom: 5px;
+    color: black;
+    text-align: center;
+} */
